@@ -1,0 +1,32 @@
+.ratingContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.ratingContainer > span {
+  text-align: end;
+}
+
+.ratingItem {
+  width: 71px;
+  height: 71px;
+  background-color: var(--lightGrey);
+  border: none;
+}
+
+.smallRatingItem {
+  width: 34px;
+  height: 34px;
+}
+
+.ratingItem:hover {
+  cursor: pointer;
+}
+
+.ratingItem:not(:last-child) {
+  margin-right: 2px;
+}
+
+.filled {
+  background-color: var(--primaryColor);
+}

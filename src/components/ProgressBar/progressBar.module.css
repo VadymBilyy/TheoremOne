@@ -1,0 +1,12 @@
+.wrapper {
+  height: 5px;
+  border-radius: 3px;
+  background-color: var(--lightGrey);
+  overflow: hidden;
+}
+
+.progress {
+  background-color: var(--progressColor);
+  border-radius: 3px;
+  height: 100%;
+}

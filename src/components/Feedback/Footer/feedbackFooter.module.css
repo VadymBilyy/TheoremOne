@@ -1,0 +1,14 @@
+.feedbackControlsContainer {
+  margin: 35px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.feedbackProgressTitle {
+  color: var(--textColor);
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  display: block;
+  margin-top: 16px;
+}

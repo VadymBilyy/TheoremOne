@@ -1,0 +1,89 @@
+.header {
+  align-items: stretch;
+  background-color: var(--lightGrey);
+  border-bottom: var(--baseBorder);
+  display: flex;
+  gap: 2rem;
+  padding: 0 var(--baseHorzSpacing);
+}
+
+.header h1 {
+  font-weight: var(--fw-bold);
+}
+
+.header h1,
+.header a {
+  align-items: center;
+  color: var(--copyColor);
+  display: flex;
+  margin: 0;
+}
+
+.header a {
+  border-bottom: 3px solid var(--lightGrey);
+  margin-bottom: 1px;
+  padding-top: 10px;
+  text-decoration: none;
+  position: relative;
+}
+
+.active {
+  border-bottom: 3px solid var(--primaryColor) !important;
+}
+
+.spacer {
+  border-right: var(--baseBorder);
+  flex: 1;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+.userInfo a {
+  color: var(--highlightedColor);
+  padding-top: 0;
+}
+
+.userInfo > img {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.userInfo > span {
+  margin-right: 15px;
+}
+
+.userName {
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--textColor);
+}
+
+.logoutButton {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.badge {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 18px;
+  right: -18px;
+  background-color: var(--primaryColor);
+  border-radius: 50%;
+  color: var(--white);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

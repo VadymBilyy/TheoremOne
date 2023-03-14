@@ -1,0 +1,52 @@
+.feedbackBackButton {
+  text-align: center;
+  color: var(--highlightedColor);
+  font-size: 12px;
+  text-transform: uppercase;
+  border: none;
+  padding: 10px;
+  display: flex;
+  align-items: inherit;
+  margin-bottom: 18px;
+}
+
+.feedbackBackButton:hover {
+  background-color: transparent;
+}
+
+.feedbackBackButton > svg {
+  margin-right: 5px;
+}
+
+.feedbackDescription {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feedbackDescription > img {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+}
+
+.feedbackQuestionContent {
+  padding: 23px;
+  margin-top: 17px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.feedbackQuestion {
+  color: var(--textColor);
+  font-size: 31px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.feedbackLabel {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--grey);
+}

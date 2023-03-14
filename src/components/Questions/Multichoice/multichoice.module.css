@@ -1,0 +1,27 @@
+.list {
+  list-style-type: none;
+}
+
+.listItem:not(:last-child) {
+  margin-bottom: 10px;
+}
+.choice {
+  background-color: var(--lightGrey);
+  border-radius: 3px;
+  padding: 20px 70px 20px 30px;
+  font-size: 16px;
+  color: var(--textColor);
+  border: none;
+  width: 100%;
+  text-align: left;
+}
+
+.choice:hover {
+  cursor: pointer;
+  background-color: var(--grey);
+}
+
+.selected {
+  background-color: var(--highlightedColor);
+  color: var(--white);
+}
